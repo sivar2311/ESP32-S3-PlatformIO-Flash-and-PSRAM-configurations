@@ -40,7 +40,7 @@
 ; Flash: 8MB QD, no PSRAM
 board_build.flash_mode = qio
 board_upload.flash_size = 8MB
-board_upload.maximum_size= 8388608
+board_upload.maximum_size = 8388608
 ```
 
 ## ESP32-S3-FH4R2
@@ -50,7 +50,7 @@ board_build.arduino.memory_type = qio_qspi
 board_build.flash_mode = qio
 board_build.prsam_type = qio
 board_upload.flash_size = 4MB
-board_upload.maximum_size= 4194304
+board_upload.maximum_size = 4194304
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -60,7 +60,7 @@ board_build.extra_flags =
 ; Flash: 4MB QD, no PSRAM
 board_build.flash_mode = qio
 board_upload.flash_size = 4MB
-board_upload.maximum_size= 4194304
+board_upload.maximum_size = 4194304
 ```
 
 ## ESP32-S3-WROOM-(1/1U)-N8
@@ -68,7 +68,7 @@ board_upload.maximum_size= 4194304
 ; Flash: 8MB QD, no PSRAM
 board_build.flash_mode = qio
 board_upload.flash_size = 8MB
-board_upload.maximum_size= 8388608
+board_upload.maximum_size = 8388608
 ```
 
 ## ESP32-S3-WROOM-(1/1U)-N16
@@ -76,7 +76,7 @@ board_upload.maximum_size= 8388608
 ; Flash: 16MB QD, no PSRAM
 board_build.flash_mode = qio
 board_upload.flash_size = 16MB
-board_upload.maximum_size= 16777216
+board_upload.maximum_size = 16777216
 ```
 
 ## ESP32-S3-WROOM-(1/1U)-N4R2
@@ -86,7 +86,7 @@ board_build.arduino.memory_type = qio_qspi
 board_build.flash_mode = qio
 board_build.prsam_type = qio
 board_upload.flash_size = 4MB
-board_upload.maximum_size= 4194304
+board_upload.maximum_size = 4194304
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -98,7 +98,7 @@ board_build.arduino.memory_type = qio_qspi
 board_build.flash_mode = qio
 board_build.prsam_type = qio
 board_upload.flash_size = 8MB
-board_upload.maximum_size= 8388608
+board_upload.maximum_size = 8388608
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -110,7 +110,7 @@ board_build.arduino.memory_type = qio_qspi
 board_build.flash_mode = qio
 board_build.prsam_type = qio
 board_upload.flash_size = 16MB
-board_upload.maximum_size= 16777216
+board_upload.maximum_size = 16777216
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -122,7 +122,7 @@ board_build.arduino.memory_type = qio_opi
 board_build.flash_mode = qio
 board_build.prsam_type = opi
 board_upload.flash_size = 4MB
-board_upload.maximum_size= 4194304
+board_upload.maximum_size = 4194304
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```  
@@ -134,7 +134,7 @@ board_build.arduino.memory_type = qio_opi
 board_build.flash_mode = qio
 board_build.prsam_type = opi
 board_upload.flash_size = 8MB
-board_upload.maximum_size= 8388608
+board_upload.maximum_size = 8388608
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -146,7 +146,7 @@ board_build.arduino.memory_type = qio_opi
 board_build.flash_mode = qio
 board_build.prsam_type = opi
 board_upload.flash_size = 16MB
-board_upload.maximum_size= 16777216
+board_upload.maximum_size = 16777216
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -158,7 +158,7 @@ board_build.arduino.memory_type = qio_opi
 board_build.flash_mode = qio
 board_build.prsam_type = opi
 board_upload.flash_size = 16MB
-board_upload.maximum_size= 16777216
+board_upload.maximum_size = 16777216
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -170,7 +170,7 @@ board_build.arduino.memory_type = opi_opi
 board_build.flash_mode = opi
 board_build.prsam_type = opi
 board_upload.flash_size = 16MB
-board_upload.maximum_size= 16777216
+board_upload.maximum_size = 16777216
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -182,7 +182,7 @@ board_build.arduino.memory_type = opi_opi
 board_build.flash_mode = opi
 board_build.prsam_type = opi
 board_upload.flash_size = 32MB
-board_upload.maximum_size= 33554432
+board_upload.maximum_size = 33554432
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -193,7 +193,7 @@ board_build.arduino.memory_type = qio_qspi
 board_build.flash_mode = qio
 board_build.prsam_type = qio
 board_upload.flash_size = 4MB
-board_upload.maximum_size= 4194304
+board_upload.maximum_size = 4194304
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -203,5 +203,5 @@ board_build.extra_flags =
 ; Flash: 8MB QD, no PSRAM
 board_build.flash_mode = qio
 board_upload.flash_size = 8MB
-board_upload.maximum_size= 8388608
+board_upload.maximum_size = 8388608
 ```
