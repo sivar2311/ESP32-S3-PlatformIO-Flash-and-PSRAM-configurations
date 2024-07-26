@@ -38,6 +38,11 @@
 ## ESP32-S3-FN8
 ```ini
 ; Flash: 8MB QD, no PSRAM
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.flash_mode = qio
 board_upload.flash_size = 8MB
 board_upload.maximum_size = 8388608
@@ -46,9 +51,14 @@ board_upload.maximum_size = 8388608
 ## ESP32-S3-FH4R2
 ```ini
 ; Flash: 4MB QD, PSRAM: 2MB QD
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.arduino.memory_type = qio_qspi
 board_build.flash_mode = qio
-board_build.prsam_type = qio
+board_build.psram_type = qio
 board_upload.flash_size = 4MB
 board_upload.maximum_size = 4194304
 board_build.extra_flags = 
@@ -58,6 +68,11 @@ board_build.extra_flags =
 ## ESP32-S3-WROOM-(1/1U)-(N/H)4
 ```ini
 ; Flash: 4MB QD, no PSRAM
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.flash_mode = qio
 board_upload.flash_size = 4MB
 board_upload.maximum_size = 4194304
@@ -66,6 +81,11 @@ board_upload.maximum_size = 4194304
 ## ESP32-S3-WROOM-(1/1U)-N8
 ```ini
 ; Flash: 8MB QD, no PSRAM
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.flash_mode = qio
 board_upload.flash_size = 8MB
 board_upload.maximum_size = 8388608
@@ -74,6 +94,11 @@ board_upload.maximum_size = 8388608
 ## ESP32-S3-WROOM-(1/1U)-N16
 ```ini
 ; Flash: 16MB QD, no PSRAM
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.flash_mode = qio
 board_upload.flash_size = 16MB
 board_upload.maximum_size = 16777216
@@ -82,9 +107,14 @@ board_upload.maximum_size = 16777216
 ## ESP32-S3-WROOM-(1/1U)-N4R2
 ```ini
 ; Flash: 4MB QD, PSRAM: 2MB QD
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.arduino.memory_type = qio_qspi
 board_build.flash_mode = qio
-board_build.prsam_type = qio
+board_build.psram_type = qio
 board_upload.flash_size = 4MB
 board_upload.maximum_size = 4194304
 board_build.extra_flags = 
@@ -94,9 +124,14 @@ board_build.extra_flags =
 ## ESP32-S3-WROOM-(1/1U)-N8R2
 ```ini
 ; Flash: 8MB QD, PSRAM: 2MB QD
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.arduino.memory_type = qio_qspi
 board_build.flash_mode = qio
-board_build.prsam_type = qio
+board_build.psram_type = qio
 board_upload.flash_size = 8MB
 board_upload.maximum_size = 8388608
 board_build.extra_flags = 
@@ -106,9 +141,14 @@ board_build.extra_flags =
 ## ESP32-S3-WROOM-(1/1U)-N16R2
 ```ini
 ; Flash: 16MB QD, PSRAM: 2MB QD
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.arduino.memory_type = qio_qspi
 board_build.flash_mode = qio
-board_build.prsam_type = qio
+board_build.psram_type = qio
 board_upload.flash_size = 16MB
 board_upload.maximum_size = 16777216
 board_build.extra_flags = 
@@ -118,9 +158,14 @@ board_build.extra_flags =
 ## ESP32-S3-WROOM-(1/1U)-N4R8
 ```ini
 ; Flash: 4MB QD, PSRAM: 8MB OT
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.arduino.memory_type = qio_opi
 board_build.flash_mode = qio
-board_build.prsam_type = opi
+board_build.psram_type = opi
 board_upload.flash_size = 4MB
 board_upload.maximum_size = 4194304
 board_build.extra_flags = 
@@ -130,9 +175,14 @@ board_build.extra_flags =
 ## ESP32-S3-WROOM-(1/1U)-N8R8
 ```ini
 ; Flash: 8MB QD, PSRAM: 8MB OT
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.arduino.memory_type = qio_opi
 board_build.flash_mode = qio
-board_build.prsam_type = opi
+board_build.psram_type = opi
 board_upload.flash_size = 8MB
 board_upload.maximum_size = 8388608
 board_build.extra_flags = 
@@ -142,9 +192,14 @@ board_build.extra_flags =
 ## ESP32-S3-WROOM-(1/1U)-N16R8
 ```ini
 ; Flash: 16MB QD, PSRAM: 8MB OT
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.arduino.memory_type = qio_opi
 board_build.flash_mode = qio
-board_build.prsam_type = opi
+board_build.psram_type = opi
 board_upload.flash_size = 16MB
 board_upload.maximum_size = 16777216
 board_build.extra_flags = 
@@ -154,9 +209,14 @@ board_build.extra_flags =
 ## ESP32-S3-WROOM-(1/1U)-N16R16(V)
 ```ini
 ; Flash: 16MB QD, PSRAM: 8MB OT
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.arduino.memory_type = qio_opi
 board_build.flash_mode = qio
-board_build.prsam_type = opi
+board_build.psram_type = opi
 board_upload.flash_size = 16MB
 board_upload.maximum_size = 16777216
 board_build.extra_flags = 
@@ -166,9 +226,14 @@ board_build.extra_flags =
 ## ESP32-S3-WROOM-2-N16R8V
 ```ini
 ; Flash: 16MB OT, PSRAM: 8MB OT
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.arduino.memory_type = opi_opi
 board_build.flash_mode = opi
-board_build.prsam_type = opi
+board_build.psram_type = opi
 board_upload.flash_size = 16MB
 board_upload.maximum_size = 16777216
 board_build.extra_flags = 
@@ -178,9 +243,14 @@ board_build.extra_flags =
 ## ESP32-S3-WROOM-2-N32R8V
 ```ini
 ; Flash: 32MB OT, PSRAM: 8MB OT
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.arduino.memory_type = opi_opi
 board_build.flash_mode = opi
-board_build.prsam_type = opi
+board_build.psram_type = opi
 board_upload.flash_size = 32MB
 board_upload.maximum_size = 33554432
 board_build.extra_flags = 
@@ -189,9 +259,14 @@ board_build.extra_flags =
 ## ESP32-S3-MINI-(1/1U)-N4R2
 ```ini
 ; Flash: 4MB QD, PSRAM: 2MB QD
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.arduino.memory_type = qio_qspi
 board_build.flash_mode = qio
-board_build.prsam_type = qio
+board_build.psram_type = qio
 board_upload.flash_size = 4MB
 board_upload.maximum_size = 4194304
 board_build.extra_flags = 
@@ -201,6 +276,11 @@ board_build.extra_flags =
 ## ESP32-S3-MINI-(1/1U)-N8
 ```ini
 ; Flash: 8MB QD, no PSRAM
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+
 board_build.flash_mode = qio
 board_upload.flash_size = 8MB
 board_upload.maximum_size = 8388608
