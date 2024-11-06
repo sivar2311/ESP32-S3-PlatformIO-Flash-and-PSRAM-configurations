@@ -208,7 +208,7 @@ board_build.extra_flags =
 
 ## ESP32-S3-WROOM-(1/1U)-N16R16(V)
 ```ini
-; Flash: 16MB QD, PSRAM: 8MB OT
+; Flash: 16MB QD, PSRAM: 16MB OT
 [env:esp32-s3-devkitc-1]
 platform = espressif32
 board = esp32-s3-devkitc-1
