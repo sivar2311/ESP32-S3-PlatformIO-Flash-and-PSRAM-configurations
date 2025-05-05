@@ -61,6 +61,7 @@ board_build.flash_mode = qio
 board_build.psram_type = qio
 board_upload.flash_size = 4MB
 board_upload.maximum_size = 4194304
+board_build.partitions = default.csv
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -76,6 +77,7 @@ framework = arduino
 board_build.flash_mode = qio
 board_upload.flash_size = 4MB
 board_upload.maximum_size = 4194304
+board_build.partitions = default.csv
 ```
 
 ## ESP32-S3-WROOM-(1/1U)-N8
@@ -102,6 +104,7 @@ framework = arduino
 board_build.flash_mode = qio
 board_upload.flash_size = 16MB
 board_upload.maximum_size = 16777216
+board_build.partitions = default_16MB.csv
 ```
 
 ## ESP32-S3-WROOM-(1/1U)-N4R2
@@ -117,6 +120,7 @@ board_build.flash_mode = qio
 board_build.psram_type = qio
 board_upload.flash_size = 4MB
 board_upload.maximum_size = 4194304
+board_build.partitions = default.csv
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -151,6 +155,7 @@ board_build.flash_mode = qio
 board_build.psram_type = qio
 board_upload.flash_size = 16MB
 board_upload.maximum_size = 16777216
+board_build.partitions = default_16MB.csv
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -168,6 +173,7 @@ board_build.flash_mode = qio
 board_build.psram_type = opi
 board_upload.flash_size = 4MB
 board_upload.maximum_size = 4194304
+board_build.partitions = default.csv
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```  
@@ -202,6 +208,7 @@ board_build.flash_mode = qio
 board_build.psram_type = opi
 board_upload.flash_size = 16MB
 board_upload.maximum_size = 16777216
+board_build.partitions = default_16MB.csv
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -219,6 +226,7 @@ board_build.flash_mode = qio
 board_build.psram_type = opi
 board_upload.flash_size = 16MB
 board_upload.maximum_size = 16777216
+board_build.partitions = default_16MB.csv
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -236,6 +244,7 @@ board_build.flash_mode = opi
 board_build.psram_type = opi
 board_upload.flash_size = 16MB
 board_upload.maximum_size = 16777216
+board_build.partitions = default_16MB.csv
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -253,6 +262,7 @@ board_build.flash_mode = opi
 board_build.psram_type = opi
 board_upload.flash_size = 32MB
 board_upload.maximum_size = 33554432
+board_build.partitions = default_32MB.csv
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
@@ -269,6 +279,7 @@ board_build.flash_mode = qio
 board_build.psram_type = qio
 board_upload.flash_size = 4MB
 board_upload.maximum_size = 4194304
+board_build.partitions = default.csv
 board_build.extra_flags = 
   -DBOARD_HAS_PSRAM
 ```
